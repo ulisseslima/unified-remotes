@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+	<row>
+		<button ontap="toggle_record" icon="record" color="red" />
+	</row>
+	<row>
+		<button text="Plays.tv" ontap="open_playstv" color="blue" />
+		<button text="Raptr" ontap="open_raptr" color="black" />
+		<button text="Local Library" ontap="open_local_lib" color="yellow" />
+	</row>
+</layout>
