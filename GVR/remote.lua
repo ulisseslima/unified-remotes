@@ -23,5 +23,5 @@ end
 
 --@help Open Raptr
 actions.open_raptr = function ()
-	os.start("C:\\Program Files (x86)\\Raptr\\raptr.exe");
+	os.start("%PROGRAMFILES(x86)%\\Raptr\\raptr.exe");
 end
